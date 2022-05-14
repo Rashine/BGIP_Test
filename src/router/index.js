@@ -283,6 +283,8 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes,
+  mode: 'hash',
+  base: '/BGIP_Test',
 });
 
 export default router;
